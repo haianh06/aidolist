@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: haianh@2309
+      POSTGRES_PASSWORD: haianh2309
       POSTGRES_DB: calendar_db
     ports:
       - "5432:5432"
